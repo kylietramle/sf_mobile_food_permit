@@ -18,7 +18,7 @@ module SfMobileFoodPermit
       restaurants_array = Unirest.get("https://data.sfgov.org/resource/6a9r-agq8.json").body
       restaurants = []
       restaurants_array.each do |restaurant_hash|
-        restaurants << Location.new(restaurant_hash)
+        restaurants << Restaurant.new(restaurant_hash)
       end
 
       return restaurants
