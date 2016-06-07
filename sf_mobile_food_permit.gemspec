@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Mobile Food Facility Permit Information}
   spec.description   = %q{This gem helps restaurants, or anyone who is interested, to see their permit, including license number and expiration date.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/kylietramle/sf_mobile_food_permit"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
